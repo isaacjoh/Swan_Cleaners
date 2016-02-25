@@ -1,0 +1,78 @@
+.anchor {
+    text-align: center;
+    margin-top: 5px;
+    position: relative;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.yelpReviews {
+    margin-top: 50px; 
+    margin-bottom: 100px;
+    margin-left: 50px;
+    display: block;
+    position: relative;
+}
+
+.mainList {
+    margin-top: 50px; 
+    margin-bottom: 100px;
+    margin-left: -50px;
+    display: block;
+    position: relative;
+}
+
+.mainUnorderedList {
+    text-align: center;
+}
+
+.mainUnorderedList li {
+    margin-top: 50px;
+    color: black;
+    z-index: 100;    
+    position: relative;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0;
+    position: relative;
+}
+
+.anchorIMG {
+    margin-top: -2px;
+    position: relative;
+}
+
+.navbar-default {
+    background-color: #ffffff;
+    border: 0;
+    margin-bottom: 0;
+    display: block;
+    position: relative;
+}
+
+.background {
+    opacity: 1;
+}
+
+.fixed-bottom {
+    max-height: 50px;
+    display: block;
+    color: #777; 
+}
+
+.anchor {
+    color: #777; 
+}
+
+.test {
+    margin-top: 100px;
+}
+
+

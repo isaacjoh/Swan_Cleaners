@@ -1,0 +1,15 @@
+img {
+    width: 50%; 
+    float: left;
+}
+
+canvas {
+    width: 50%;
+    height: 368px;
+}
+
+.main {
+    height: 368px;
+}
+
+

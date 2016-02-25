@@ -1,0 +1,268 @@
+.homePage {
+    background: url(../images/clothesline.jpg) no-repeat;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    display: block;
+}
+
+.contactUsPage {
+    background-color: white;
+    display: block;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.dryCleanPage, .laundryPage, .alterationsPage, .pressPage, .householdPage {
+    background-color: white;
+    display: block;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.anchorsAndBrand {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.anchor1, .anchor2, .anchor3, .anchor4, .anchor5, .anchor6, .brandLogo{
+    width: 14.285%;
+    height: 120px; 
+    float: left;
+    text-align: center;
+    line-height: 120px; 
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+img {
+    height: 120px; 
+}
+
+a:hover, a:link, a:visited, a:active {
+    color: black;
+    text-decoration: none;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+input, textarea {
+    background-color: gainsboro;
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+    height: 35px;
+    width: 100%;
+    padding: 2px;
+}
+
+textarea {
+    height: 170px;
+} 
+
+.btn-gray {
+    background-color: gainsboro;
+    border-color: white;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+} 
+
+.contactForm {
+    margin-top: 160px;
+    margin-left: 100px;
+    width: 350px;
+    height: 500px;
+    float: left;
+}
+
+.contactLocation {
+    margin-top: 160px;
+    margin-left: 75px;
+    width: 550px;
+    height: 500px; 
+    float: left;
+}
+
+.contactAboutUs {
+    float: left;
+    width: 350px;
+    height: 500px;
+    margin-top: 160px;
+    margin-left: 75px;
+    line-height: 30px;
+}
+
+.dryCleanYelp {
+    clear: both;
+    width: 1100px; 
+    height: 150px;
+    margin: 0 auto;
+    display: table; 
+    position: relative;
+}
+
+.dryCleanYelpQuote1 {
+    display: table-cell;
+    vertical-align: top;
+    margin: auto;
+}
+
+blockquote {
+    line-height: 30px;
+    font-family: 'Playfair Display', sans-serif;
+    border: 0;
+    font-size: 14px;
+}
+
+blockquote:before {
+    content: "\201C"; 
+    display: block;
+    font-size: 4em; 
+    font-family: 'Alex Brush', cursive;
+}
+
+blockquote:after {
+    content: "\201D"; 
+    display: block;
+    font-size: 4em; 
+    font-family: 'Alex Brush', cursive;
+    float: right;
+}
+
+hr {
+    border-width: 2px;
+    margin-top: 0;
+    margin-bottom: 0; 
+}
+
+iframe {
+}
+
+.contactSchedule {
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 0px;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+} 
+
+.suitPicture {
+    width: 800px;
+    height: 375px;
+}
+
+.suitPictureDiv {
+    margin-top: 175px; 
+    margin-left: 150px;
+    margin-right: 100px;
+    float: left;
+    margin-bottom: 50px;
+}
+
+.allContact {
+    height: 90vh;
+}
+
+.btn-gray:link, .btn-gray:visited, .btn-gray:hover, .btn-gray:active {
+    background-color: lightblue;
+    border-color: white;
+}
+
+.dryCleanInfo {
+    float: left;
+    margin-top: 175px;
+    display: table;     
+    width: 400px;
+    height: 375px;
+    line-height: 30px;    
+}
+
+.laundryPageInfo {
+    margin-top: 175px;
+    display: table;     
+    width: 400px;
+    height: 375px;
+    line-height: 30px; 
+}
+
+.laundryPageInfo p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+} 
+
+.dryCleanInfo p, .contactAboutUs p {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+} 
+
+.externalSiteLogos {
+    display: inline-block; 
+    height: 35px;
+    width: 35px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer {
+    clear: both;
+    display: block;
+    margin-top: 0px;
+    height: 10vh;
+    width: 100%;
+    background-color: lightgray; 
+    color: white;
+    text-align: center;
+    line-height: 10vh;
+}
+
+.row {
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.siteLogos {
+    width: 100%;     
+    margin: auto;
+    position: relative;
+    text-align: center;
+} 
+
+.websiteVine { 
+    width: 10%;
+    height: 75%; 
+    float: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+} 
+
+.websiteVineParagraph {
+    line-height: 85px; 
+    text-align: center; 
+    width: 100%; 
+    height: 14.285%; 
+    margin-bottom: 0; 
+}
+
+.websiteVine img {
+    display: block;
+    margin: auto;
+    max-height: 100%; 
+} 

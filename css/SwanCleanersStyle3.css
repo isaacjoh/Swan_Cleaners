@@ -1,0 +1,453 @@
+a:link, a:visited, a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 1.2em;
+}
+
+a.glyphicon-selected:hover {
+    font-size: 1em;
+}
+
+.alterationsImage {
+    height: 100vh; 
+    padding: 0;
+    margin: 0; 
+    display: none;
+    background-image: url(../images/sewing.jpg);
+    background-size: contain;
+} 
+
+.alterationsTab {
+    background-image: url(../images/sewing.jpg);
+    background-size: cover; 
+}
+
+.big {
+    padding: 0 40px;
+    padding-top: 10px;
+    height: 45px;
+    text-transform: uppercase;
+    font: 20px/22px Josefin Sans, sans-serif;
+}
+
+body, html {
+    width: 100vw;
+    height: 100vh; 
+    overflow: hidden;
+} 
+
+.centeredVertically {
+    display: inline-block; 
+    vertical-align: middle;
+    z-index: 250;
+}
+
+.circle {
+    border-radius: 50%;
+	width: 15px;
+	height: 15px; 
+    background-color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.contactUsImage {
+    height: 100vh; 
+    padding: 0; 
+    display: none;
+    background-color: white;
+    text-align: center;
+} 
+
+.contactUsMap {
+    display: inline-block; 
+    height: 60%;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+} 
+
+.contactUsTab {
+    background-image: url(../images/penNotebook.jpg);
+    background-size: cover; 
+}
+
+.css3button {
+    position: relative;
+	font-family: Josefin Sans, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #000000;
+	padding: 8px 19px;
+	background: -moz-linear-gradient(
+		top,
+		#ffffff 0%,
+		#c0c0c0 50%,
+		#ffffff);
+	background: -webkit-gradient(
+		linear, left top, left bottom,
+		from(#ffffff),
+		color-stop(0.50, #c0c0c0),
+		to(#ffffff));
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	border: 0px solid #003366;
+	-moz-box-shadow:
+		0px 5px 6px rgba(000,000,000,1),
+		inset 0px 0px 6px rgba(255,255,255,0.5);
+	-webkit-box-shadow:
+		0px 5px 6px rgba(000,000,000,1),
+		inset 0px 0px 6px rgba(255,255,255,0.5);
+	box-shadow:
+		0px 5px 6px rgba(000,000,000,1),
+		inset 0px 0px 6px rgba(255,255,255,0.5);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+    outline: 0;
+} 
+
+.css3button:link, .css3button:visited, .css3button:focus {
+    color: black;
+    text-decoration: none;
+} 
+
+.css3button:hover {
+    font-size: 1.2em;
+}
+
+.css3button:active {
+    -moz-box-shadow:
+		0px 2px 6px rgba(000,000,000,1),
+		inset 0px 0px 6px rgba(255,255,255,0.5);
+	-webkit-box-shadow:
+		0px 2px 6px rgba(000,000,000,1),
+		inset 0px 0px 6px rgba(255,255,255,0.5);
+	box-shadow:
+		0px 2px 6px rgba(000,000,000,1),
+		inset 0px 0px 6px rgba(255,255,255,0.5);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.7),
+		0px 1px 0px rgba(255,255,255,0.3);
+    position:relative;
+    top:1px;
+} 
+
+.dryCleanImage {
+    height: 100vh; 
+    padding: 0;
+    margin: 0; 
+    display: none;
+    background-image: url(../images/audir8.jpg);
+    background-size: contain;
+}
+
+.dryCleanInfo, .laundryInfo, .alterationsInfo, .pressInfo, .householdInfo, .contactUsInfo {
+    height: 100vh; 
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+.dryCleanInfo p, .laundryInfo p, .alterationsInfo p, .pressInfo p, .householdInfo p, .contactUsInfo p {
+    font-family: 'Lato', sans-serif;
+    padding: 75px;
+    vertical-align: middle;
+} 
+
+.dryCleanIronAnimation {
+    position: absolute;
+    bottom: 0;
+    left: 0; 
+    margin: 0;
+    padding: 0;
+}
+
+.dryCleanPage, .laundryPage, .alterationsPage, .pressPage, .householdPage, .contactUsPage {
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    left: 0; 
+    margin: 0;
+    padding: 0;
+}
+
+.dryCleanTab, .laundryTab, .alterationsTab, .pressTab, .householdTab, .contactUsTab {
+    font-family: Josefin Sans;
+    font-size: 1.5em;
+    text-align: center;
+    height: 100%;    
+    color: white;
+    letter-spacing: 7px;
+    display: none;
+}
+
+.dryCleanTab {
+    background-image: url(../images/suit.jpg);
+    background-size: cover; 
+}
+
+.dryCleanTab:before, .laundryTab:before, .alterationsTab:before, .pressTab:before, .householdTab:before, .contactUsTab:before {
+    content: ''; 
+    display: inline-block;
+    height: 100%; 
+    vertical-align: middle;
+} 
+
+.enterHeading1 {
+    margin: 45px;
+    margin-top: 50px;
+    padding: 45px;
+    margin-bottom: 25px;
+}
+
+.enterHeading3 {
+    padding: 40px;
+    margin: 0px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.glyphicon {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    font-size: 2.5em;
+}
+
+.glyphicon:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height:100%;
+} 
+
+.glyphicon:before {
+    text-align: center;
+    margin: auto;
+    margin-left: 20%;
+}
+
+.glyphicon-selected {
+    cursor: default;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    padding: 25px;
+}
+
+.homeTab { 
+    position: absolute;
+    display: inline-block; 
+    height: 100vh;
+    width: 100vw;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+}
+
+.householdImage {
+    height: 100vh; 
+    padding: 0;
+    margin: 0; 
+    display: none;
+    background-image: url(../images/clothesline.jpg);
+    background-size: contain;
+} 
+
+.householdTab {
+    background-image: url(../images/household.jpg);
+    background-size: cover; 
+}
+
+iframe {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.ironAnimation img {
+    position: relative; 
+    padding: 0;
+    margin: 0; 
+    display: none;
+}
+
+.laundryTab {
+    background-image: url(../images/laundryWash.jpg);
+    background-size: cover; 
+}
+
+.laundryImage {
+    height: 100vh; 
+    padding: 0;
+    margin: 0; 
+    display: none;
+    background-image: url(../images/penNotebook.jpg);
+    background-size: contain;
+} 
+
+.pressImage {
+    height: 100vh; 
+    padding: 0;
+    margin: 0; 
+    display: none;
+    background-image: url(../images/iron.jpg);
+    background-size: contain;
+} 
+
+.pressTab {
+    background-image: url(../images/pressedPants.jpg);
+    background-size: cover; 
+}
+
+.row1, .row2 {
+    height: 50vh;
+    width: 100vw;
+    position: absolute;
+    margin: 0;
+} 
+
+.row2 {
+    top: 50vh;
+} 
+
+.splashscreen {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    display: block;
+    vertical-align: middle;
+    position: absolute; 
+    z-index: 500;
+    vertical-align: middle;
+} 
+
+.splashScreenImage {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 75px;
+}
+
+.splashScreenImage img {
+    vertical-align: middle;
+    height: 85%;
+    width: 30%; 
+}
+
+.splashScreenInfo {
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.splashScreenInfo h1 {
+    font-family: Josefin Sans;
+    letter-spacing: 10px;
+}
+
+.subVerticalLegend { 
+    height: 14.2857%;
+    width: 100%;
+    text-align: center; 
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.subVerticalLegend:after {
+    content: '';
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.subVerticalLegend a {
+    display: inline-block; 
+    color: black;
+    width: 100%;
+    height: 100%; 
+}
+
+.tint:before {
+    content: '';
+    height: 100%; 
+    display: inline-block;
+    vertical-align: middle;
+}
+    
+.tint {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(80,80,80,0.5); 
+    opacity: 1;
+} 
+
+.verticalBarHomePageLogo {
+    margin-top: 10%;
+}
+
+.verticalBarHomePageLogo a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+.verticalBarHomePageLogo a img {
+    width: 60%;
+    height: 50%;
+    margin: auto;
+}
+
+.verticalLegend {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 8.33333%; 
+    background-color: white;
+    color: black;
+    z-index: 300;
+    display: none; 
+    text-align: center;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none; 
+    white-space: normal; 
+} 
+
+/*.verticalLegend:after {
+    position: absolute;
+    content: "";
+    top: 20%; 
+    left: 50%; 
+    height: 60%;  
+    border-left: 2px solid #ffffff; 
+} */
+
+
+
+
+
+
+
+
+
+
+

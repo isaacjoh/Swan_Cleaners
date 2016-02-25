@@ -1,0 +1,102 @@
+.backgroundPicture {
+}
+
+img {
+}
+
+.main {
+ width: 100%;
+}
+
+.main2 {
+
+}
+
+#brand {
+    
+}
+
+.brandContainer {
+    height: 75px; 
+}
+
+body {
+}
+
+.contactInfo {
+    padding-top: 5px;
+    font-size: 15px;
+    text-align: right; 
+}
+
+.contactUs {
+    text-align: right; 
+    font-family: sans-serif;
+    font-size: 20px; 
+    padding-top: 10px;
+}
+
+.ourReviews {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px; 
+    padding-top: 10px;
+}
+
+.aboutUs {
+    font-family: sans-serif;
+    font-size: 20px; 
+    padding-top: 10px;
+}
+
+a {
+    color: gray;
+}
+
+.navbar-default {
+    background-color: white;
+    width: 100%; 
+    border: 0;
+    padding-top: 10px;
+}
+
+.firstBox {
+    text-align: center;
+    height: 100px; 
+}
+
+.secondBox {
+    width: 33.33%;
+    text-align: center;
+    height: 100px; 
+}
+
+.thirdBox {
+    width: 33.33%;
+    text-align: center; 
+    height: 100px; 
+}
+
+.grid2-3 {
+    width: 100%; 
+}
+
+
+.grid1-3 {
+}
+
+.boxes {
+    display: inline-block;
+    margin-top: 20px; 
+}
+
+* {
+    color: black;
+}
+
+footer {
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
